@@ -1,0 +1,100 @@
+/* Filename: App.css */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #e8f5e9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.dashboard {
+  text-align: center;
+  width: 100%;
+}
+
+.header {
+  background-color: #1565c0;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 400px;
+  margin: auto;
+}
+
+.card h2 {
+  color: #1565c0;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #1565c0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0d47a1;
+}
+
+.header {
+  background: linear-gradient(90deg, #1565c0, #1e88e5);
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0d47a1;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Card responsiveness */
+@media (max-width: 600px) {
+  .card {
+    width: 90%;
+  }
+}
