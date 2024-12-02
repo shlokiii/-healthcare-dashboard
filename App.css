@@ -92,7 +92,7 @@ button:hover {
   transition: all 0.3s ease;
 }
 
-/* Card responsiveness */
+
 @media (max-width: 600px) {
   .card {
     width: 90%;
